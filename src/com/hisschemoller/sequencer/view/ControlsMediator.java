@@ -33,6 +33,7 @@ import javax.sound.midi.MidiDevice;
 import javax.swing.*;
 
 public class ControlsMediator extends Mediator implements IViewEventListener {
+
 	public static final String NAME = ControlsMediator.class.getName();
 
 	public ControlsMediator( Object viewComponent ) {

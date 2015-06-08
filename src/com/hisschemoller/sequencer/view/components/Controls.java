@@ -38,7 +38,7 @@ import java.util.Vector;
 
 public class Controls implements ActionListener, ChangeListener {
 	public static final long serialVersionUID = -1L;
-	private Vector<IViewEventListener> _viewEventListeners = new Vector<IViewEventListener>();
+	private Vector<IViewEventListener> _viewEventListeners = new Vector<>();
 	private JToggleButton _playButton;
 	private JButton _allNotesOffButton;
 	private JSlider _tempoSlider;

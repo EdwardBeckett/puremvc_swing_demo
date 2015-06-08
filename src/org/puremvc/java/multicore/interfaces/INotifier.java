@@ -29,8 +29,8 @@ package org.puremvc.java.multicore.interfaces;
  * to the facade anyway.
  * </P>
  *
- * @see org.puremvc.java.interfaces.IFacade IFacade
- * @see org.puremvc.java.interfaces.INotification INotification
+ * @see org.puremvc.java.multicore.interfaces.IFacade IFacade
+ * @see org.puremvc.java.multicore.interfaces.INotification INotification
  */
 public interface INotifier {
 

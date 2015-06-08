@@ -17,7 +17,7 @@ public class MainFrame implements ComponentListener {
 			EPGPreferences.getInt( EPGPreferences.WINDOW_HEIGHT, preferredSize.height ) );
 		jFrame.setLocation( EPGPreferences.getInt( EPGPreferences.WINDOW_X, 0 ),
 			EPGPreferences.getInt( EPGPreferences.WINDOW_Y, 0 ) );
-		jFrame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		jFrame.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
 		jFrame.setVisible( true );
 		jFrame.addComponentListener( this );
 	}

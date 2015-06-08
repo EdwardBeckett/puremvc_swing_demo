@@ -24,17 +24,17 @@ import org.puremvc.java.multicore.patterns.facade.Facade;
  * <P>
  * The <code>Notifier</code> class, which all of the above mentioned classes
  * extend, provides an initialized reference to the <code>Facade</code>
- * Singleton, which is required for the convienience method for sending
+ * Singleton, which is required for the convenience method for sending
  * <code>Notifications</code>, but also eases implementation as these classes
  * have frequent <code>Facade</code> interactions and usually require access
  * to the facade anyway.
  * </P>
  *
- * @see org.puremvc.java.patterns.facade.Facade Facade
- * @see org.puremvc.java.patterns.mediator.Mediator Mediator
- * @see org.puremvc.java.patterns.proxy.Proxy Proxy
- * @see org.puremvc.java.patterns.command.SimpleCommand SimpleCommand
- * @see org.puremvc.java.patterns.command.MacroCommand MacroCommand
+ * @see org.puremvc.java.multicore.patterns.facade.Facade Facade
+ * @see org.puremvc.java.multicore.patterns.mediator.Mediator Mediator
+ * @see org.puremvc.java.multicore.patterns.proxy.Proxy Proxy
+ * @see org.puremvc.java.multicore.patterns.command.SimpleCommand SimpleCommand
+ * @see org.puremvc.java.multicore.patterns.command.MacroCommand MacroCommand
  */
 public class Notifier {
 	// The Multiton Key for this app
